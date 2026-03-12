@@ -476,14 +476,14 @@
               tr
                 td Transparencia.
                 td Disco Secchi.                
-                td Productividad..
+                td Productividad.
               tr
                 td Biomasa.
                 td Balanza.                
                 td Conversión alimenticia.
               tr
                 td Longitud.
-                td Ictiómetro
+                td Ictiómetro.
                 td Ganancia de peso.
     //- Inicio Tabla     
 
