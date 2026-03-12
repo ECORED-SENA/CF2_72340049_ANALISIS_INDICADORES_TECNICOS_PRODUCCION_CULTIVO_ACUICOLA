@@ -391,13 +391,104 @@
     //- Inicio contenedor vertical
     container.tarjeta.p-4.p-md-5
           TabsA.color-acento-botones
-            .tarjeta.p-5.bg-color-5(titulo="Herramientas recomendadas")
+            .tarjeta.p-5.bg-color-1(titulo="Herramientas recomendadas")
               h4 Herramientas recomendadas
-              p Capacidad de asumir y resolver las quejas del cliente de forma eficaz.
-            .tarjeta.p-5.bg-color-5(titulo="Ventajas de la digitalización")
+              ul.lista-ul
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Hojas de cálculo (Excel o similares).
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 <i>Software</i> de gestión acuícola.
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Aplicaciones móviles de registro en campo.
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Bases de datos digitales.
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Sistemas en la nube.
+              
+            .tarjeta.p-5.bg-color-1(titulo="Ventajas de la digitalización")
               h4 Ventajas de la digitalización
-              p Libertad para tomar decisiones dentro de ciertos límites, utilizando el criterio adecuado.            
+              ul.lista-ul
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Automatizan cálculos de indicadores.
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Generan gráficos comparativos.
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Facilitan reportes técnicos periódicos.
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Permiten análisis por ciclo productivo.
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Reducen la pérdida de información.
+              
     //- Inicio contenedor vertical
+
+
+    p(data-aos="fade-left") La incorporación de estas herramientas fortalece la trazabilidad del cultivo y permite evaluar el desempeño a corto, mediano y largo plazo.
+
+
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Integración equipo – dato – indicador
+    //- Título con imagen
+
+    p(data-aos="fade-left") La relación entre variable medida, equipo utilizado e indicador asociado permite comprender cómo cada medición impacta el desempeño productivo. A continuación, se presenta la articulación técnica correspondiente:
+
+
+    //- Inicio Tabla
+    .row.justify-content-center
+      .col-md-8.mt-3
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 4.
+          span  Integración entre variables medidas, equipos de control e indicadores 
+        .tabla-a.color-acento-botones
+          table
+            thead
+              tr
+                th.text-center(style="width: 30%") Variable
+                th.text-center(style="width: 30%") Equipo 
+                th.text-center(style="width: 40%") Indicador asociado
+            tbody
+              tr
+                td Temperatura.
+                td Termómetro.            
+                td Crecimiento.
+              tr
+                td Oxígeno.
+                td Oxímetro.                
+                td Supervivencia.
+              tr
+                td pH.
+                td pH-metro digital.                
+                td Toxicidad.
+              tr
+                td Transparencia.
+                td Disco Secchi.                
+                td Productividad..
+              tr
+                td Biomasa.
+                td Balanza.                
+                td Conversión alimenticia.
+              tr
+                td Longitud.
+                td Ictiómetro
+                td Ganancia de peso.
+    //- Inicio Tabla     
+
+
+    p.mt-3(data-aos="fade-left") La integración sistemática entre medición, registro y análisis constituye la base del control técnico en acuicultura, ya que permite anticipar riesgos, optimizar recursos y mejorar la rentabilidad del sistema productivo.
 
 
     //- Fin Tema2.3
