@@ -2,11 +2,25 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum.
+    
+    .row.mb-5
+      .col-12.ps-3(style="border-left: 10px solid #39A900;") 
+        h3.mb-1 Análisis de indicadores técnicos de producción en el cultivo acuícola
+        p.mb-0 
+          | Síntesis: 
+          
+          | Fundamentos de gestión operativa y documental en sistemas acuícolas.
+
+    
+    p.mt-5 A continuación, se presenta a manera de síntesis, un esquema que articula los elementos principales abordados en el desarrollo del componente formativo.
+
+
+
+
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="Síntesis  sobre gestión operativa y documental en sistemas acuícolas que organiza áreas como gestión técnica en acuicultura, materiales y equipos, indicadores técnicos, gestión de la información, registros técnicos, análisis e interpretación y factores que afectan indicadores, con subtemas como ganancia de peso, conversión alimenticia, biomasa y densidad, recolección y validación de datos, control documental, comparación con valores de referencia y factores ambientales, nutricionales, sanitarios, de manejo y económicos. ")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

@@ -83,7 +83,7 @@
               tr
                 td Amonio, nitritos y nitratos..
                 td Kits colorimétricos o espectrofotómetro.
-    //- Inicio Tabla                
+    //- fin Tabla                
               
     p.mt-5(data-aos="fade-left") Estos datos deben registrarse en horarios definidos. En sistemas intensivos, se recomienda medición <b>en la mañana y en la tarde</b>, debido a las variaciones diurnas del oxígeno y el pH.
 
@@ -392,44 +392,54 @@
     container.tarjeta.p-4.p-md-5
           TabsA.color-acento-botones
             .tarjeta.p-5.bg-color-1(titulo="Herramientas recomendadas")
-              h4 Herramientas recomendadas
-              ul.lista-ul
-                li.d-flex
-                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Hojas de cálculo (Excel o similares).
-                li.d-flex
-                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 <i>Software</i> de gestión acuícola.
-                li.d-flex
-                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Aplicaciones móviles de registro en campo.
-                li.d-flex
-                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Bases de datos digitales.
-                li.d-flex
-                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Sistemas en la nube.
+              .row 
+                .col-6
+                  h4 Herramientas recomendadas                  
+                    ul.lista-ul.mt-4
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Hojas de cálculo (Excel o similares).
+
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 <i>Software</i> de gestión acuícola.
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Aplicaciones móviles de registro en campo.
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Bases de datos digitales.
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Sistemas en la nube.
+                .col-6
+                  figure
+                  img(src='@/assets/curso/tema2/pestana1_1.png', alt='')            
               
             .tarjeta.p-5.bg-color-1(titulo="Ventajas de la digitalización")
-              h4 Ventajas de la digitalización
-              ul.lista-ul
-                li.d-flex
-                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Automatizan cálculos de indicadores.
-                li.d-flex
-                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Generan gráficos comparativos.
-                li.d-flex
-                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Facilitan reportes técnicos periódicos.
-                li.d-flex
-                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Permiten análisis por ciclo productivo.
-                li.d-flex
-                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Reducen la pérdida de información.
-              
-    //- Inicio contenedor vertical
+              .row 
+                .col-6
+                  h4 Ventajas de la digitalización
+                    ul.lista-ul.mt-4
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Automatizan cálculos de indicadores.
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Generan gráficos comparativos.
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Facilitan reportes técnicos periódicos.
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Permiten análisis por ciclo productivo.
+                      li.d-flex
+                        i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                        p.mb-0 Reducen la pérdida de información.
+                .col-6
+                  figure
+                  img(src='@/assets/curso/tema2/pestana1_2.png', alt='')
+    //- Fin contenedor vertical
 
 
     p(data-aos="fade-left") La incorporación de estas herramientas fortalece la trazabilidad del cultivo y permite evaluar el desempeño a corto, mediano y largo plazo.

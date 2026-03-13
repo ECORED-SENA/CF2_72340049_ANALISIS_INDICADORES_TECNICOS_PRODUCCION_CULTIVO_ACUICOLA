@@ -79,7 +79,7 @@
                 td Peces/m² o peces/m³
                 td Incide en oxígeno, competencia y estrés.
 
-    //- Inicio Tabla     
+    //- Fin Tabla     
 
 
     //- Título con imagen
@@ -287,7 +287,12 @@
           h2 4.3 Relación entre indicadores y toma de decisiones
 
     p(data-aos="fade-left") A continuación, se presenta un video que explica la importancia de los indicadores técnicos en la gestión acuícola y su papel estratégico en la toma de decisiones para optimizar la productividad, la sanidad y la rentabilidad del sistema productivo.
-    p(data-aos="fade-left") **********************************Video*************************************************
+    
+    
+    figure.mb-5(data-aos="fade-down")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/nHjl83QvSUw?si=PYOSxqLdAk88V5nb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 
     //- Fin Tema4.3
 

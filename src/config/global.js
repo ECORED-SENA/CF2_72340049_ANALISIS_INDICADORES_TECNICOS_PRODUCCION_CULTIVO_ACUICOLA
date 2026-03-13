@@ -1,7 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name:
+      'Fundamentos de gestión operativa y documental en sistemas acuícolas.',
+    Description:
+      'El componente formativo aborda  la gestión técnica en producción acuícola, incluyendo equipos de medición, control de calidad del agua, registros productivos, sanitarios y ambientales, así como análisis de indicadores como crecimiento, conversión alimenticia y supervivencia. También desarrolla factores que afectan el desempeño y propone acciones correctivas y preventivas basadas en mejora continua y seguimiento técnico sistemático.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -195,11 +197,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -231,13 +228,85 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Alevinos',
+      significado:
+        'Peces pequeños con los que se inician los cultivos acuícolas.',
+    },
+    {
+      termino: 'Buenas prácticas acuícolas',
+      significado:
+        'Condiciones y prácticas operativas básicas que garantizan un manejo adecuado en el cultivo acuícola.',
+    },
+    {
+      termino: 'Ciclo productivo',
+      significado:
+        'Tiempo total de duración de un cultivo, desde la siembra hasta la cosecha.',
+    },
+    {
+      termino: 'Cultivos intensivos',
+      significado:
+        'Sistemas piscícolas donde se siembran entre 15 y 30 peces por metro cúbico, con aireación y recambios constantes de agua.',
+    },
+    {
+      termino: 'Cultivos súper-intensivos',
+      significado:
+        'Sistemas piscícolas altamente tecnificados donde se siembran más de 30 peces por metro cúbico.',
+    },
+    {
+      termino: 'Hallazgo',
+      significado:
+        'Observación o concepto emitido sobre un aspecto evaluado, clasificado según criterios preestablecidos.',
+    },
+    {
+      termino: 'Inocular',
+      significado:
+        'Introducir un microorganismo o sustancia en un medio específico donde pueda crecer y reproducirse.',
+    },
+    {
+      termino: 'Kit de parámetros',
+      significado:
+        'Conjunto de equipos o reactivos químicos que permiten medir diferentes parámetros de calidad del agua.',
+    },
+    {
+      termino: 'Medidas correctivas',
+      significado:
+        'Acciones implementadas para eliminar la causa de una situación detectada y no deseada.',
+    },
+    {
+      termino: 'Medidas preventivas',
+      significado:
+        'Acciones adoptadas para evitar la ocurrencia de una situación potencialmente no deseada.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Autoridad Nacional de Acuicultura y Pesca (AUNAP). (2023). Lineamientos para el desarrollo sostenible de la acuicultura en Colombia. AUNAP. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Boyd, C. E., & Tucker, C. S. (2012). Pond aquaculture water quality management. Springer.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario (ICA). (2022). Normativa sanitaria para la producción y comercialización de organismos acuáticos en Colombia. ICA.',
+      link: '',
+    },
+    {
+      referencia:
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO). (2022). El estado mundial de la pesca y la acuicultura 2022. FAO.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pillay, T. V. R., & Kutty, M. N. (2005). Aquaculture: Principles and practices (2nd ed.). Blackwell Publishing.',
+      link: '',
+    },
+    {
+      referencia:
+        'Tacon, A. G. J., & Metian, M. (2015). Feed matters: Satisfying the feed demand of aquaculture. Reviews in Fisheries Science & Aquaculture, 23(1), 1–10.',
       link: '',
     },
   ],
@@ -246,14 +315,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Claudia Johanna Gómez P.',
+          cargo: 'Líder del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Olga Constanza Bermúdez',
+          cargo: 'Responsable de Línea de Producción Huila',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -261,9 +330,21 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Carlos Andrés Machado Milanés',
+          cargo: 'Experto temático',
+          centro: 'Centro Agropecuario y de Biotecnología el Porvenir.',
+        },
+        {
+          nombre: 'Eliana Audrey Manchola Pérez',
+          cargo: 'Experta temática (actualización)',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paula Marcela Vidal Quintero',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -271,19 +352,58 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Juan José Calderón Gutierrez',
+          cargo: 'Diseñador de contenidos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Henry Álvarez Astudillo',
+          cargo: 'Desarrollador fullstack',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Rojas Polania',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Maria Carolina Tamayo Lopez',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'German Acosta Ramos',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Fabio Armando Ortiz Reyes',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -291,14 +411,28 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Ricardo Oliveros Zambrano',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Anyerson Wilfredo Pizo Ossa',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
