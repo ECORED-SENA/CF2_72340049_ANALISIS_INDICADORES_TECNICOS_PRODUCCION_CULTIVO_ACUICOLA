@@ -5,30 +5,23 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
-      h1 Registros técnicos en la producción acuícola
-    
-    
+      h1 Registros técnicos en la producción acuícola    
     p(data-aos="fade-left") La clasificación de los materiales y equipos facilita su organización técnica y operativa dentro del sistema acuícola. A continuación, se presentan los principales componentes asociados a la infraestructura del sistema productivo.
-
-
+    Separador
     //- Inicio Tema3.1
     .row.mt-5
         #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 3.1 Concepto y finalidad de los registros
-
     p.mb-3(data-aos="fade-left") Los registros técnicos en acuicultura son documentos físicos o digitales en los que se consignan, de manera sistemática, los datos relacionados con el manejo productivo, sanitario, ambiental y administrativo del cultivo. Su finalidad principal es:
-
     .row
       .col-lg-3.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema3/2.png", data-aos="zoom-in", style="max-width: 250px").mx-auto
-
       .col-lg-9.order-lg-1(data-aos="fade-left")
         .bg-color-15-1.p-4
           .row.align-items-center.bg-color-2
             .col-lg-4.px-0.mb-3.mb-lg-0
               img(src="@/assets/curso/tema3/1.png", style="width:100%; height:100%; object-fit:cover;")
-
             .col-lg-8.p-
               ul.lista-ul
                 li.d-flex
@@ -46,21 +39,14 @@
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
                   p.mb-0 Permitir la trazabilidad del producto, desde la siembra hasta la comercialización.
-              
-
         p.mb-3(data-aos="fade-left") El registro organizado de información constituye un pilar fundamental para mejorar la eficiencia, reducir pérdidas económicas y asegurar la calidad e inocuidad del producto final.
-
     //- Fin Tema3.1
-
+    Separador
     //- Inicio Tema3.2
     .row.mt-5
-        #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 3.1 Tipos de registros: productivos, sanitarios y ambientales
-
+        #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 3.2 Tipos de registros: productivos, sanitarios y ambientales
         p.mb-3(data-aos="fade-left") De acuerdo con las buenas prácticas en piscicultura, los registros se clasifican en tres categorías principales. Cada una cumple una función específica dentro del sistema de gestión de la información.
-
-
-
     //- Slideshow
     .bg-full-width.bg-fondo-slider.mb-3
             .p-4.p-md-5
@@ -97,8 +83,7 @@
                       li.d-flex
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
                         p.mb-0 Cosechas parciales o totales.
-                    p Estos registros permiten calcular indicadores como <b>crecimiento, supervivencia y rendimiento productivo</b>, fundamentales para evaluar eficiencia técnica y rentabilidad.
-                    
+                    p Estos registros permiten calcular indicadores como <b>crecimiento, supervivencia y rendimiento productivo</b>, fundamentales para evaluar eficiencia técnica y rentabilidad.                    
                 .row.align-items-center.p-4.p-md-5
                   .col-lg-5.order-2
                     figure
@@ -126,7 +111,6 @@
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
                         p.mb-0 Mortalidades asociadas a patologías.                      
                     p Estos documentos son fundamentales para demostrar el uso responsable de insumos veterinarios y garantizar la <b>inocuidad del producto final</b>, especialmente en procesos de certificación o comercialización formal.
-
                 .row.align-items-center.p-4.p-md-5
                   .col-lg-5.order-2
                     figure
@@ -158,21 +142,14 @@
                         p.mb-0 Manejo de residuos.
                     p Estos datos permiten prevenir problemas productivos asociados a desequilibrios ambientales, reducir riesgos sanitarios y mejorar la sostenibilidad del cultivo.
     //- Slideshow
-
-
     p.mb-3(data-aos="fade-left") La integración de registros productivos, sanitarios y ambientales consolida un sistema de información técnica integral, orientado al control eficiente, la trazabilidad y la mejora continua en la producción acuícola.
-
     //- Fin Tema3.2
-
-
+    Separador
     //- Inicio Tema3.3
     .row.mt-5
         #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 3.3 Formatos técnicos y estructura de diligenciamiento
-
         p.mb-3(data-aos="fade-left") Los formatos técnicos constituyen la herramienta operativa para registrar información de manera organizada, clara y trazable. Su correcta estructuración garantiza coherencia en los datos y facilita procesos de control interno, auditoría y certificación. Generalmente, un formato técnico debe incluir los siguientes elementos:
-
-
     //- Carrusel
     .bg-full-width.mt-5
       .px-4.px-md-5.pb-md-3             
@@ -216,13 +193,10 @@
                   p.card-text.text-center
                   | Registra novedades o situaciones atípicas.
     //- Fin Carrusel
-
     .row.justify-content-center.align-items-center.mb-5    
-
       .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/3.png', alt='')
-
       .col-lg-7(data-aos="fade-right")
         p Para su correcto diligenciamiento se recomienda:
         .bg-color-4.p-4.p-md-5.h-100.rounded-4
@@ -241,17 +215,14 @@
               p.mb-0 Mantener archivos organizados cronológicamente.
             li.d-flex
               i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-              p.mb-0 Digitalizar la información cuando sea posible.
-        
-        p.mt-3 Un formato estructurado facilita auditorías, procesos de certificación en Buenas Prácticas Piscícolas y control técnico del sistema productivo.
-            
+              p.mb-0 Digitalizar la información cuando sea posible.        
+        p.mt-3 Un formato estructurado facilita auditorías, procesos de certificación en buenas prácticas piscícolas y control técnico del sistema productivo.            
     //- Fin Tema3.3
-
+    Separador
     //- Inicio Tema3.4
     .row.mt-5
         #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 3.4 Importancia de la trazabilidad y control documental           
-    
+          h2 3.4 Importancia de la trazabilidad y control documental
     .row.justify-content-center.align-items-center.mb-5    
       .col-lg-7(data-aos="fade-right")
         p La trazabilidad en acuicultura permite reconstruir la historia del producto, desde la adquisición de insumos hasta la comercialización final. Este proceso integra información productiva, sanitaria y ambiental para garantizar transparencia y cumplimiento normativo. Un adecuado control documental permite:
@@ -271,19 +242,13 @@
               p.mb-0 Evaluar parámetros ambientales históricos.
             li.d-flex
               i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-              p.mb-0 Determinar causas de pérdidas productivas
-        
+              p.mb-0 Determinar causas de pérdidas productivas        
       .col-lg-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema3/3.png', alt='')
-
-    
+          img(src='@/assets/curso/tema3/3.png', alt='')    
     p.mb-3(data-aos="fade-left") Los formatos técnicos constituyen la herramienta operativa para registrar información de manera organizada, clara y trazable. Su correcta estructuración garantiza coherencia en los datos y facilita procesos de control interno, auditoría y certificación. Generalmente, un formato técnico debe incluir los siguientes elementos:
     p.mb-3(data-aos="fade-left") La implementación organizada de registros técnicos no solo mejora la eficiencia productiva, sino que transforma la información en una herramienta estratégica para la sostenibilidad, la rentabilidad y la mejora continua del cultivo acuícola.
-
     //- Fin Tema3.4
-
-
 </template>
 
 <script>

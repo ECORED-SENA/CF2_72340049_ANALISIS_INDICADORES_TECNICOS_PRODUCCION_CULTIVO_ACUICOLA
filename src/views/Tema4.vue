@@ -18,7 +18,7 @@
         //- Cambiado de 5 a 7 para completar los 12 espacios (5 + 7 = 12)
         .col-12.col-lg-7.bg-color-2.p-4.p-lg-5.pe-lg-0
           p En la piscicultura colombiana, el monitoreo permanente de estos indicadores se considera una buena práctica productiva, ya que permite identificar desviaciones, prevenir pérdidas y fortalecer la competitividad del sistema.
-
+    Separador
     //- Inicio Tema4.1 
     .row.mt-5
         #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -126,7 +126,7 @@
 
     p(data-aos="fade-left") De esta manera, los indicadores no deben interpretarse de forma aislada, sino como parte de un sistema interrelacionado donde cada variable incide sobre las demás.
     //- Fin Tema4.1
-
+    Separador
     //- Inicio Tema4.2
     .row.mt-5
         #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -280,7 +280,7 @@
     p.mt-2(data-aos="fade-left") No basta con medir variables aisladas. Es indispensable comprender el comportamiento integral del sistema productivo para tomar decisiones acertadas y sostenibles.
     //-Fin Tema4.2
 
-
+    Separador
     //- Inicio Tema4.3
     .row.mt-5
         #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
