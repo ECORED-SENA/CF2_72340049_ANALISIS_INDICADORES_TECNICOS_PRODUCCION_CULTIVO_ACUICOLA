@@ -20,7 +20,7 @@
                   h5.mb-3.fw-bold Gestión de la información productiva en acuicultura
                   TarjetaAudio.color-primario(
                     texto="" 
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/componentes/audios/podcast1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")        
@@ -144,7 +144,7 @@
             li.d-flex
               i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
               p.mb-0 Recipientes de muestreo.         
-    p.mb-3.mt-5 La frecuencia recomendada para muestreos productivos es de<b>cada 8 a 15 días</b>, dependiendo de la fase (precría, levante o engorde) y del nivel de intensificación.
+    p.mb-3.mt-5 La frecuencia recomendada para muestreos productivos es de <b>cada 8 a 15 días</b>, dependiendo de la fase (precría, levante o engorde) y del nivel de intensificación.
     //- Título con imagen
     .bg-full-width.mt-5
       .px-4.px-md-5.pb-md-3
