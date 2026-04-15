@@ -522,7 +522,7 @@
     //- Inicio Tema1.4
     .row.mt-5
         #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 1.5  Criterios técnicos de selección
+          h2 1.5  Aplicaciones en el monitoreo de indicadores técnicos
     p(data-aos="fade-left") El monitoreo permanente de los indicadores técnicos permite evaluar el desempeño productivo del cultivo y ajustar oportunamente las decisiones de manejo. Cada indicador se relaciona con equipos o registros específicos que garantizan datos confiables para el análisis. A continuación, se presenta la relación entre indicador técnico, equipo utilizado y su aplicación dentro del sistema productivo:
     //- Inicio Tabla
     .row.justify-content-center
