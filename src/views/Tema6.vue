@@ -13,9 +13,9 @@
           h5 Figura 1.
           span  Formulación de acciones de mejora, de acuerdo con el análisis de los indicadores técnicos.      
     .row.justify-content-center.mb-3.align-items-center
-            .col-7
-              figure
-                img(src='@/assets/curso/tema6/1.png', alt='Diagrama sobre análisis de indicadores técnicos de producción en el cultivo acuícola y formulación de acciones de mejora, con secciones de factores que afectan el comportamiento de los indicadores como consumo, factores externos, análisis de causas y medidas preventivas, y apartado de acciones de mejora como corrección, prevención y seguimiento.')
+      .col-7
+        figure
+          img(src='@/assets/curso/tema6/1.png', alt='Diagrama sobre análisis de indicadores técnicos de producción en el cultivo acuícola y formulación de acciones de mejora, con secciones de factores que afectan el comportamiento de los indicadores como consumo, factores externos, análisis de causas y medidas preventivas, y apartado de acciones de mejora como corrección, prevención y seguimiento.')
     p(data-aos="fade-left") El diagrama presenta un flujo estructurado para el análisis de indicadores técnicos de producción en el cultivo acuícola y la formulación de acciones de mejora. En la parte central se ubica el análisis de indicadores, a partir del cual se derivan decisiones orientadas a la mejora del sistema productivo.
     p(data-aos="fade-left") La estructura se organiza en dos componentes principales: el análisis técnico y la definición de acciones de mejora, estas últimas clasificadas en correctivas, preventivas y de seguimiento. Asimismo, integra los factores que influyen en el comportamiento de los indicadores, tales como el consumo, los factores externos, el análisis de causas, los limitantes técnicos y las medidas preventivas y correctivas, dispuestos en una organización jerárquica que facilita la toma de decisiones técnicas fundamentadas.
     Separador
